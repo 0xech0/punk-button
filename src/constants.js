@@ -7,19 +7,19 @@ export const NETWORKS = {
             symbol: "ETH",
             decimals: 18
         },
-        testnetID: 4,
+        testnetID: 5,
         blockExplorerURL: "https://etherscan.io"
     },
     4: {
-        name: "Rinkeby",
-        rpcURL: "https://rinkeby.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+        name: "Goerli",
+        rpcURL: "https://goerli.infura.io/v3/8ffbaf774e534c3f95a5b02de41f8ac6",
         currency: {
             name: "Ether",
             symbol: "ETH",
             decimals: 18
         },
-        testnetID: 4,
-        blockExplorerURL: "https://rinkeby.etherscan.io"
+        testnetID: 5,
+        blockExplorerURL: "https://goerli.etherscan.io"
     },
     137: {
         name: "Polygon",
