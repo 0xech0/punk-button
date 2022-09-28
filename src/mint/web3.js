@@ -136,9 +136,9 @@ export const getMaxTokensPerMint = async () => {
     return getDefaultMaxTokensPerMint()
 }
 
-export const mint = async (numberOfTokens) => {
+export const mint = async (nTokens) => {
     const wallet = await getWalletAddressOrConnect(true);
-    const numberOfTokens = numberOfTokens ?? 1;
+    const numberOfTokens = nTokens ?? 1;
     const mintPrice = await getMintPrice();
     if (mintPrice === undefined)
         return { tx: undefined }
