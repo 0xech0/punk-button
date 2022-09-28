@@ -1,0 +1,33 @@
+@import url('https://rawcdn.githack.com/0xech0/mint-button/57c7c4b66503c373ca9caf96b8f681baa74111ad/src/styles/echo-fuckedarial_1-webfont.woff2&display=swap');
+
+@font-face {
+    font-family: 'echo_fucked_arial_regular';
+    src: url('https://rawcdn.githack.com/0xech0/mint-button/57c7c4b66503c373ca9caf96b8f681baa74111ad/src/styles/echo-fuckedarial_1-webfont.woff2') 
+    format('woff2'),
+    url('https://rawcdn.githack.com/0xech0/mint-button/57c7c4b66503c373ca9caf96b8f681baa74111ad/src/styles/echo-fuckedarial_1-webfont.woff') 
+    format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.MuiDialog-container {
+    font-family: "echo_fucked_arial_regular", Helvetica Neue, sans-serif !important;
+}
+
+.mintModal-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow: visible;
+    min-width: 280px;
+}
+
+@media screen and (min-width: 600px) {
+    .mintModal-content {
+        min-width: 300px;
+    }
+}
+
+.web3modal-modal-lightbox {
+    z-index: 10000 !important;
+}
